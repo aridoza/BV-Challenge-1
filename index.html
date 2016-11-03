@@ -10,7 +10,7 @@
 </head>
 <body>
   <!-- Main bootstrap container -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="main-container">
 
     <!-- Office image div -->
     <div class="row">
@@ -151,7 +151,7 @@
 
     <!-- 'Our Team' Section -->
     <div class="row" id="about">
-      <div >
+      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3" id="team-top">
           <h1 class="text-center">Our Team</h1>
           <p class="text-center" id="team-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -161,6 +161,7 @@
 
     <!-- Team members row -->
     <div class="row" id="teamsters-row">
+      <!-- <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2" id="team-cols"> -->
         <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-2" id="teamsters-col">
           <img src="assets/riffraff.jpg" alt="Responsive image" class="center-block img-circle img-fluid" id="team-img">
           <h3 class="text-center">Riff Raff</h3>
@@ -213,14 +214,16 @@
             <img id="team-social" src="assets/social-linkedin-square2-16.png" alt="">
           </div>
         </div>
+      <!-- </div> -->
     </div>
 
     <br><br><br><br><br>
 
 
     <!-- Nike... row -->
-    <div  id="company-row">
-      <div class=" col-xs-12 col-sm-12 col-md-12" id="company-col">
+    <div class="row" id="company-row">
+      <br>
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-md-offset-3" id="company-col">
         <!-- <br> -->
         <img src="assets/logo-nike.svg" id="company-imgs" alt="">
         <img src="assets/logo-ms.svg" id="company-imgs" alt="">
@@ -305,8 +308,8 @@
     <br> <br>
 
     <!-- About/Team Solutions/Apps/Support Footer Row -->
-    <div class="row" >
-      <div >
+    <div class="row" id="about-cols">
+      <div id="about-cols">
       <br><br>
       <!-- Footer Row Container -->
       <div class="col-xs-12 col-sm-12 col-md-11 col-md-offset-1">
@@ -339,14 +342,12 @@
         </div>
       </div>
     </div>
-
-
     </div>
     <!-- End About... Row -->
 
 
     <!-- Copyright footer -->
-    <div class="row">
+    <div class="row" id="cpy-container">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1" id="copyright-row">
         <br>
         <p id="copyright-text">&copy 2016 SomeCompany.com</p>
