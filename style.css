@@ -175,17 +175,18 @@
 #svc-tools-desc {
   display: block;
   width: 150px;
-  /*margin: 0 auto;*/
+  /*text-align: center;*/
+  margin: 0 auto;
 }
 
 #ecom-container {
   min-height: 30vh;
 }
 
-#ecom-row {
+/*#ecom-row {
   display: flex;
 
-}
+}*/
 
 
 
