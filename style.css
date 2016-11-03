@@ -249,11 +249,10 @@
 }
 
 #company-col {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
+  display: block;
   margin: 0 auto;
-  justify-content: space-around;
+  text-align: center;
+  /*justify-content: space-around;*/
   background-color: purple;
 }
 
