@@ -1,0 +1,289 @@
+/*Header mobile*/
+#dropdown-container {
+  padding-left: 50px;
+}
+
+#intro-bgr-color-mobile {
+  background-color: #68228B;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#dropdownMenu1 {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  width: 50px;
+  border: 0 none;
+}
+
+#dropdown-list {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dropdown-item {
+  color: white;
+}
+
+#dropdown-item:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+
+/*Header default*/
+
+#brgr-icon {
+  width: 150px;
+  height: 200px;
+}
+
+#company-name {
+  display: block;
+  padding-left: 20px;
+  color: white;
+}
+
+#header-text-right {
+  color: white;
+}
+
+#bgr-img {
+  background-image: url("assets/office.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: purple;
+  display: block;
+}
+
+
+
+/*Hello World Section*/
+#intro {
+  min-height: 95vh;
+  background-color: rgba(119, 47, 147, 0.4);
+}
+
+#intro-bgr-color {
+  background-color: rgba(119, 47, 147, 0.4);
+}
+
+#hello-text {
+  display: block;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  top: 70px;
+}
+
+#hello-detail {
+  /*add different font for intro text*/
+}
+
+#learn-btn {
+  border: 0 none;
+  background-color: #68228B;
+  color: white;
+}
+
+/*Redefining the web section*/
+#redef{
+  background-color: #68228B;
+  color: white;
+  display: block;
+}
+
+#redef-col-container {
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#layers-container {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#layers-img {
+  width: 350px;
+  height: 350px;
+}
+
+
+#redef-text {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#redef-learn-btn {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Services content*/
+#svc-container {
+  background-color: black;
+  color: white;
+}
+
+#svc-top-half {
+  display: block;
+  top: 80px;
+  text-align: center;
+  min-height: 40vh;
+  padding-bottom: 200px;
+}
+
+#svc-desc {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#svc-tools-row {
+  display: block;
+  min-height: 20vh;
+
+}
+
+#svc-tools {
+  display: block;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#svc-tools-desc {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+#ecom-row {
+  min-height: 30vh;
+}
+
+
+
+
+/*Team Section*/
+
+#team-top {
+  display: block;
+  min-height: 40vh;
+  top: 80px;
+  padding-bottom: 200px;
+}
+
+#team-img {
+  /*border-radius: 50%;*/
+  width: 200px;
+  height: 200px;
+}
+
+#team-desc {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+#team-desc-text {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#teamsters-row {
+  display: block;
+  min-height: 45vh;
+}
+
+#teamsters-col {
+  display: block;
+  padding-bottom: 80px;
+}
+
+#team-social {
+  text-align: center;
+}
+
+#team-social-links {
+  display: flex;
+  width: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+
+
+/*Company Logos*/
+#company-row {
+  display: block;
+  background-color: purple;
+}
+
+#company-col {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#company-imgs {
+  width: 80px;
+  height: 50px;
+}
+
+/*Contact Section*/
+#contact-row {
+  padding-top: 30px;
+  background-color: #141414;
+  color: white;
+}
+
+#contact-msg {
+  background-color: #383838;
+  color: white;
+  border-color: black;
+}
+
+#contact-text {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact-submit {
+  background-color: black;
+  color: grey;
+  border-color: grey;
+}
+
+#contact-company-text {
+  color: grey;
+}
+
+#about-cols {
+  background-color: #0D0D0D;
+}
+
+/*Footer Content*/
+#cpy-container {
+  background-color: #0D0D0D;
+}
+
+#footer-text-list {
+  color: grey;
+}
+
+#copyright-text {
+  color: grey;
+}
+
+#copyright-row {
+  border-top: 1px solid grey;
+}

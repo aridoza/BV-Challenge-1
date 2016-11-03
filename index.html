@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BeenVerified Challenge Site</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main bootstrap container -->
+  <div class="container-fluid">
+
+    <!-- Office image div -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12" id="bgr-img">
+
+        <!-- Header -->
+        <!-- Mobile header -->
+        <nav class="navbar-fixed-top navbar-right visible-xs-block" id="intro-bgr-color-mobile">
+          <div class="col-xs-8">
+            <h4>SomeCompany</h4>
+          </div>
+
+
+          <!-- Mobile dropdown -->
+          <div class="col-xs-4">
+          <div class="dropdown" id="dropdown-container">
+            <button type="button" class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span style="font-size:1.7em" class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="dropdown-list">
+              <li><a href="#svc-container" id="dropdown-item">Pricing</a></li>
+              <li><a href="#about" id="dropdown-item">About</a></li>
+              <li><a href="#contact-row" id="dropdown-item">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+
+        <!-- navbar content -->
+        <div class="col-sm-8 col-md-8 hidden-xs">
+          <h4 id="company-name">SomeCompany</h4>
+        </div>
+        <div class="col-sm-1 col-md-1 hidden-xs">
+            <h5 id="header-text-right">Pricing</h5>
+        </div>
+        <div class="col-sm-1 col-md-1 hidden-xs">
+            <h5 id="header-text-right">About</h5>
+        </div>
+        <div class="col-sm-1 col-md-1 hidden-xs">
+            <h5 id="header-text-right">Contact</h5>
+        </div>
+        <!-- End navbar content -->
+
+        <!-- End Header -->
+
+        <!-- Hello World Row -->
+        <div class="row" id="intro">
+          <div class="col-md-6 col-md-offset-3" id="hello-text">
+            <h1>Hello, world!</h1>
+            <br>
+            <h4 id="hello-detail">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h4>
+            <br>
+            <button class="btn btn-default btn-lg" id="learn-btn">Learn More <span class="glyphicon glyphicon-chevron-right"></span></button>
+          </div>
+        </div>
+
+    </div>
+    <!-- End Office image div -->
+
+
+    <!-- Redefining the web section -->
+    <div class="row" id="redef">
+      <div class="col-xs-12 col-sm-12 col-md-12" id="redef-col-container">
+        <div class="col-xs-6 col-sm-6 col-md-6" id="layers-container">
+          <img src="assets/layers.png" alt="" id="layers-img">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h1 id="redef-text">Redefining the web</h1>
+          <p id="redef-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <button class="btn btn-default btn-lg" id="redef-learn-btn">Learn more</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Services panel container -->
+    <div class="row" id="svc-container">
+      <div class="text-center"></div>
+      <!-- Services row -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3" id="svc-top-half">
+          <h1>Services</h1>
+          <p id="svc-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+      <!-- Unique Layouts... row -->
+      <div class="row" id="svc-tools-row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-3">
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/Bulb-24.png" alt="">
+            <h4>Unique Layouts</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/smartphone.png" alt="">
+            <h4>Responsive</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/loading_wait_time_40-24.png" alt="">
+            <h4>Ajax Transitions</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <!-- E-Commerce... row -->
+      <div class="row" id="ecom-row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-3">
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/shopping-bag-24.png" alt="">
+            <h4>E-Commerce</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/grid_22-24.png" alt="">
+            <h4>Unlimited Portfolios</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3" id="svc-tools">
+            <img src="assets/lightning.png" alt="">
+            <h4>Powerful</h4>
+            <p id="svc-tools-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          </div>
+        </div>
+      </div>
+      <!-- End E-commerce... row -->
+    </div>
+    <!-- End Service panel container -->
+
+
+
+
+
+    <!-- 'Our Team' Section -->
+    <div class="row" id="about">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3" id="team-top">
+          <h1 class="text-center">Our Team</h1>
+          <p class="text-center" id="team-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team members row -->
+    <div class="row" id="teamsters-row">
+      <!-- <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2" id="team-cols"> -->
+        <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-2" id="teamsters-col">
+          <img src="assets/riffraff.jpg" alt="Responsive image" class="center-block img-circle img-fluid" id="team-img">
+          <h3 class="text-center">Riff Raff</h3>
+          <h5 class="text-center" id="team-desc" >FOUNDER</h5>
+          <br>
+          <p id="team-desc" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          <br>
+          <div class="row" id="team-social-links">
+            <img id="team-social" src="assets/social-facebook-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-twitter-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-linkedin-square2-16.png" alt="">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" id="teamsters-col">
+          <img src="assets/2chainz.jpeg" alt="" class="center-block img-circle" id="team-img">
+          <h3 class="text-center">2 Chainz</h3>
+          <h5 class="text-center" id="team-desc">CHIEF TECHNOLOGY OFFICER</h5>
+          <br>
+          <p id="team-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          <br>
+          <div class="row" id="team-social-links">
+            <img id="team-social" src="assets/social-facebook-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-twitter-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-linkedin-square2-16.png" alt="">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" id="teamsters-col">
+          <img src="assets/nene.jpeg" alt="" class="center-block img-circle" id="team-img">
+          <h3 class="text-center">NeNe Leakes</h3>
+          <h5 class="text-center" id="team-desc">DIRECTOR OF MARKETING</h5>
+          <br>
+          <p id="team-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          <br>
+          <div class="row" id="team-social-links">
+            <img id="team-social" src="assets/social-facebook-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-twitter-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-linkedin-square2-16.png" alt="">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" id="teamsters-col">
+          <img src="assets/miley.jpg" alt="" class="center-block img-circle" id="team-img">
+          <h3 class="text-center">Miley Cyrus</h3>
+          <h5 class="text-center" id="team-desc">CREATIVE DIRECTOR</h5>
+          <br>
+          <p id="team-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Distinctio ut, inventore quibusdam consequatur eos.</p>
+          <br>
+          <div class="row" id="team-social-links">
+            <img id="team-social" src="assets/social-facebook-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-twitter-square2-16.png" alt="">
+            <img id="team-social" src="assets/social-linkedin-square2-16.png" alt="">
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <br><br><br><br><br>
+
+
+    <!-- Nike... row -->
+    <div class="row" id="company-row">
+      <br>
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-md-offset-3" id="company-col">
+        <br>
+        <img src="assets/logo-nike.svg" id="company-imgs" alt="">
+        <img src="assets/logo-ms.svg" id="company-imgs" alt="">
+        <img src="assets/logo-github.svg" id="company-imgs" alt="">
+        <br><br><br>
+      </div>
+    </div>
+
+
+    <!-- Contact Section Row -->
+    <div id="contact-row">
+    <!-- Contact row -->
+    <br><br>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1 class="text-center">Contact</h1>
+        <br>
+        <p class="text-center" id="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <br> <br> <br>
+
+    <!-- Contact sources row -->
+    <div class="row">
+      <!-- Message boxes column -->
+      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-xs-10 col-sm-10 col-md-7">
+              <input type="text" class="form-control" id="contact-msg" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-10 col-sm-10 col-md-7">
+              <input type="text" class="form-control" id="contact-msg" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-10 col-sm-10 col-md-7">
+              <input type="text" class="form-control" id="contact-msg" placeholder="Subject">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-10 col-sm-10 col-md-7">
+              <textarea class="form-control" rows="3" id="contact-msg" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-10 col-sm-10 col-md-7">
+              <button type="submit" class="btn btn-default" id="contact-submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Address/Phone/Fax Column -->
+      <div class="col-xs-12 col-sm-6 col-md-2">
+        <h4>Address</h4>
+        <p id="contact-company-text">307 5th Ave, 16th Floor</p>
+        <p id="contact-company-text">New York, NY 10016</p>
+        <h4>Phone</h4>
+        <p id="contact-company-text">212-222-1234</p>
+        <h4>Fax</h4>
+        <p id="contact-company-text">212-630-7862</p>
+      </div>
+
+      <!-- Email/Connect Column -->
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h4>Email</h4>
+        <p id="contact-company-text">info@somecompany.com</p>
+        <h4>Connect</h4>
+          <img src="assets/social-facebook-square2-16.png" alt="">
+          <img src="assets/social-twitter-square2-16.png" alt="">
+          <img src="assets/social-linkedin-square2-16.png" alt="">
+          <img src="assets/social-pinterest-square2-16.png" alt="">
+          <img src="assets/vinevimeo-16.png" alt="">
+      </div>
+    </div>
+    <!-- End Contact Sources Row -->
+
+    <br> <br>
+
+    <!-- About/Team Solutions/Apps/Support Footer Row -->
+    <div class="row" id="about-cols">
+      <br><br>
+      <!-- Footer Row Container -->
+      <div class="col-xs-12 col-sm-12 col-md-11 col-md-offset-1">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4>About</h4>
+          <h5 id="footer-text-list">Company</h5>
+          <h5 id="footer-text-list">Jobs</h5>
+          <h5 id="footer-text-list">Press</h5>
+          <h5 id="footer-text-list">Engineering</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4>Team Solutions</h4>
+          <h5 id="footer-text-list">Marketing</h5>
+          <h5 id="footer-text-list">Project Management</h5>
+          <h5 id="footer-text-list">Managers</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4>Apps</h4>
+          <h5 id="footer-text-list">Integrations</h5>
+          <h5 id="footer-text-list">iOS</h5>
+          <h5 id="footer-text-list">Android</h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4>Support</h4>
+          <h5 id="footer-text-list">Customer Success</h5>
+          <h5 id="footer-text-list">Terms & Privacy</h5>
+          <h5 id="footer-text-list">Contact Us</h5>
+          <h5 id="footer-text-list">Developers</h5>
+          <br><br>
+        </div>
+      </div>
+    </div>
+    <!-- End About... Row -->
+
+
+    <!-- Copyright footer -->
+    <div class="row" id="cpy-container">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1" id="copyright-row">
+        <br>
+        <p id="copyright-text">&copy 2016 SomeCompany.com</p>
+      </div>
+    </div>
+
+  <!-- End Contact Section row -->
+  </div>
+
+  </div>
+  <!-- End main container div -->
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
