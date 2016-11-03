@@ -174,12 +174,17 @@
 
 #svc-tools-desc {
   display: block;
-  width: 250px;
-  margin: 0 auto;
+  width: 150px;
+  /*margin: 0 auto;*/
+}
+
+#ecom-container {
+  min-height: 30vh;
 }
 
 #ecom-row {
-  min-height: 30vh;
+  display: flex;
+
 }
 
 
